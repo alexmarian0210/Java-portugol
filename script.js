@@ -1,12 +1,7 @@
-// loop de repetições
-for (let i = 0; i <= 10; i++) {
-    console.log(`O número atual é ${i}`);
-} 
+let contador = 0;
 
-/*
-para (inteiro i = 0; i <= 10; i++) {
-    escreva(" número " + i);
+
+while (contador <= 10) {
+    console.log(`O contador está em: ${contador}`);
+    contador++;
 }
-
-
-*/
