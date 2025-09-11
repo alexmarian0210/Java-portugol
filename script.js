@@ -22,11 +22,10 @@ se (nota >= 90) {
     escreva("Reprovado!")
 }
 */
-let nota = 85
-
-if (nota >= 90) {
-    console.log("Aprovado!");
-} else if (nota >= 80) {
-    console.log("Reprovado!");
+let a = 10;
+let b = "10";
+if (a !== b) {
+    console.log("true");
+} else {
+    console.log("False");
 }
-
